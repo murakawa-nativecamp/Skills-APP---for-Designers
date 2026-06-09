@@ -1,0 +1,14 @@
+{
+  "name": "nativecamp-design-skills",
+  "version": "0.1.0",
+  "description": "NativeCamp デザイナー向けのCowork/Claudeスキル集（Figmaデザイン修正など）",
+  "author": {
+    "name": "NativeCamp Design",
+    "email": "murakawa.nativecamp@gmail.com"
+  },
+  "homepage": "https://github.com/murakawa-nativecamp/Skills---for-Designers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/murakawa-nativecamp/Skills---for-Designers.git"
+  }
+}

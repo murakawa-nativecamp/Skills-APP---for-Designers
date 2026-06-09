@@ -19,6 +19,7 @@ description: >
 5. **アイコンは Icon コンポーネントのインスタンス**で（直置きグリフ禁止）。
 6. **タブバー(tab_navigation)は参考にある画面だけ残す**。無い画面は削除。
 7. 確認は **構造データ（componentProperties / characters / boundVariables 等）で行う**。スクショは遅延・キャッシュがある。
+8. **`wrapper-M` 直下の gap(itemSpacing) は必ず `Space/3xl`(40) に統一する（例外なし）**。見出し(`block_heading`)とその本文は wrapper-M 直下にバラバラに並べず、**`section_◯` に1まとまり**にする（詳細は「見出しと本文のまとめ方」）。
 ## 入力
 - 参考ノードURL（例 `?node-id=13354-10148`）
 - 作成ノードURL（例 `?node-id=13354-11890`）
@@ -44,11 +45,22 @@ description: >
   - `paddingBottom = 120`（タブ回避の固定値。DS変数に無いので生値のままで可＝唯一の例外）
   - `paddingLeft = paddingRight = 20`（`Space/lg` にバインド）
 - **`wrapper-M` には padding を一切付けない（上下左右すべて 0）**。余白は全て `main` が担当。wrapper にも付けると**二重余白**になる。
-- `wrapper-M` は **section 間の `itemSpacing`(gap) のみ** を持ち、これも `Space/*`（例：`Space/3xl`=40）にバインド。
-- section / block / group 内部の gap や padding も `Space/*` にバインド。
+- `wrapper-M` は **section 間の `itemSpacing`(gap) のみ** を持つ。**この gap は必ず `Space/3xl`(40) に統一する（例外なし）**＝ wrapper-M 直下に並ぶ要素どうしの間隔は常に 40px。
+- section / block / group 内部の gap や padding も `Space/*` にバインド（内部は 40 より小さい値が基本。例：見出し→本文は `Space/base`=16）。
 - 角丸は `Radius/*` にバインド（カードは概ね `Radius/xl`=16 / `Radius/lg`=12、小要素は `Radius/md`=8）。
 - 枠線の太さは `BorderWidth/*` にバインド（細`Subtle`=1 / 標準`Default`=1.5 / 太`Strong`=2）。枠線色は `Border/Default|Subtle|Strong`。
-- canonical な雛形：`main`: pt=pl=pr=`Space/lg`(20) / pb=120、`wrapper-M`: padding 上下左右すべて 0 / gap=`Space/3xl`(40)。
+- canonical な雛形：`main`: pt=pl=pr=`Space/lg`(20) / pb=120、`wrapper-M`: padding 上下左右すべて 0 / gap=`Space/3xl`(40・固定)。
+## 見出しと本文のまとめ方 ※重要
+- **`block_heading`（見出し）と、その見出しに属する本文テキストは、必ず1つのまとまり（`section_◯`）に入れる**。`wrapper-M` 直下に「見出し→本文→見出し→本文…」と**バラバラに並べない**。
+- 理由：`wrapper-M` 直下の gap は常に 40px なので、見出しと本文を直下に並べると**見出しと自分の本文の間まで 40px 空いて**しまい、どの本文がどの見出しに属するか分かりにくくなる（見出しは次の本文と“近接”していないと意味が伝わらない）。
+- 正しい構造：
+  ~~~
+  wrapper-M            （gap = Space/3xl=40 … 節と節の間だけに効く）
+  └─ section_◯         （1つの節 = 見出し＋本文のまとまり）
+     ├─ block_heading  （accent + タイトル）
+     └─ text           （本文）   ← 節内部の 見出し→本文 gap は小さめ（例 Space/base=16）
+  ~~~
+- 例（プライバシーポリシー等、「見出し＋段落」が連続する画面）：各「見出し＋段落」を `section_◯` にまとめ、**section 間=40px / section 内の見出し→本文=16px** にする。`block_heading` と本文 `text` を wrapper-M 直下に交互に置くのは NG。
 ## ボタンの置き方 ※重要
 - **ボタンが1個（単体）の場合は専用の囲み block を作らない**。`block_buttons` 等で包まず、`wrapper-M` 直下にボタンを置く。
 - **余計な `paddingTop` を付けない**。ボタン上の間隔は `wrapper-M` の `itemSpacing`（section と同じ DS gap）で取る。囲み frame 側に独自の上余白を足さない。
@@ -93,7 +105,7 @@ description: >
 | Space/xl | 24 | `VariableID:9fd93e78a2e6432a2ded1414005c5b65ceeda5f2/89:33` | `9fd93e78a2e6432a2ded1414005c5b65ceeda5f2` |
 | Space/2xl | 32 | `VariableID:5b69b682dbdfc89c7f6ba046b2c0da00c0eba488/89:35` | `5b69b682dbdfc89c7f6ba046b2c0da00c0eba488` |
 | Space/3xl | 40 | `VariableID:ef401cd6b5643f8604c4f5c83a61685d68d4829d/619:10` | `ef401cd6b5643f8604c4f5c83a61685d68d4829d` |
-- 横padding(main)=Space/lg(20)、section間gap(wrapper-M)=Space/3xl(40) が標準。
+- 横padding(main)=Space/lg(20)。**section間gap(wrapper-M直下)=Space/3xl(40) は固定（必ず統一・例外なし）**。
 ### Radius 変数（"Design System - APP" / コレクション `Radius`）※cornerRadius は必ずこれにバインド
 | name | px | VariableID（R444…内） | key（別ファイル用） |
 |---|---|---|---|
@@ -180,6 +192,8 @@ ov.layoutPositioning="ABSOLUTE"; ov.x=0; ov.y=0;
 - [ ] 色・テキストが全てDS変数/スタイルにバインド（生HEX残り無し）
 - [ ] **余白(padding/gap)・角丸・線幅(strokeWeight)が全てDS変数(Spacing/Radius/BorderWidth)にバインド（生数値残り無し）**
 - [ ] **wrapper-M に padding が一切無い（上下左右すべて0）。余白は main 側（pt/pl/pr=Space/lg(20)、pb=120）**
+- [ ] **wrapper-M 直下の gap が全て Space/3xl(40) に統一されている**
+- [ ] **見出し(block_heading)と本文が section_◯ に1まとまりになっている（wrapper-M 直下に見出し/本文を交互に並べていない）**
 - [ ] **ボタン単体は囲んでいない／複数並ぶ時のみ block で囲み、余計な余白(padding)が無い**
 - [ ] アイコンは Icon インスタンス（直置きグリフ0）
 - [ ] ボタンは Primary/Secondary/Tertiary を適切に

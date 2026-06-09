@@ -23,6 +23,12 @@ description: >
 - 参考ノードURL（例 `?node-id=13354-10148`）
 - 作成ノードURL（例 `?node-id=13354-11890`）
 - fileKey はURLから抽出（`/design/<fileKey>/...`）。本プロジェクト作業ファイル: `R444smr7K5Btu854AGNibv`
+## 既存デザイン資産の参照 ※重要
+- これまで作成したデザインは **「App Master File for student」** に蓄積されている。
+- **似た画面・要素・パターンを作るときは、まずこのファイルを参照**し、既存の構成・レイヤー命名・DSコンポーネントの使い方・余白の取り方を踏襲する（毎回ゼロから作らない／既存の作り方に合わせる）。
+- ファイル: `https://www.figma.com/design/HKEeQO4ltPu3moj0U0FCwg/App-Master-File-for-student?node-id=1-491`
+- fileKey: `HKEeQO4ltPu3moj0U0FCwg`（参照起点ノード: `1-491`）
+- 参照手順: `get_metadata` / `get_screenshot` で近い既存画面を探し、その section/block 構成・使用コンポーネント・`boundVariables` の付け方を真似てから新規画面に適用する。新しい依頼を受けたら、着手前にまずここで類似デザインの有無を確認する。
 ## ワークフロー
 1. **参考を読む**：`get_screenshot`（参考は静的なので正確）でテキスト/構成を把握。深い構造の読み取りはタイムアウトしやすいので **直下の子だけ・depth≤2** に。
 2. **作成画面のガワを確認**：`header` / `main` > `wrapper-M` > `section_◯` / `tab_navigation` の構成を読む。**main の padding と wrapper-M の itemSpacing がどの DS 変数にバインドされているか** を `boundVariables` で確認してから踏襲する。

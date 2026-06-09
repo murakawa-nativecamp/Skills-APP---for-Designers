@@ -1,4 +1,4 @@
-# Skills for Designers
+# Skills-APP---for-Designers
 
 NativeCamp デザイナー向けの Claude Cowork スキル集です。
 このリポジトリは **Cowork プラグインのマーケットプレイス** になっています。

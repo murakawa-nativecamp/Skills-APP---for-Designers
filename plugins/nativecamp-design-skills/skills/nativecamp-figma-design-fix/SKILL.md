@@ -81,13 +81,14 @@ description: >
 - Text: Primary `#FFFFFF` / Secondary `#999999` / Tertiary `#4D4D4D` / Link `#1E73DC` / OnBrand(白)
 - Brand: Primary(オレンジ) `#F1890E` / Secondary(ネイビー) `#092846`
 - Status: Success `#32D74B` / Error `#F0295D` / Warning `#DBA911`
+  - Error の `Status/Error/Default` は **PinkRed/500 を参照**（旧: red/500。ダークの実HEXは `#F0295D` で変更なし。ライトは PinkRed/600=`#D1194D`）。
 - Font: Noto Sans JP（Regular / Medium / Bold）
 ### 色 変数ID（作業ファイル R444… 内。別ファイルでは search_design_system / importVariableByKeyAsync で解決）
 - Text/Primary `VariableID:832f523ad5505ae3be2c655ae4e0ab84b8825e95/643:0`
 - Text/Secondary `VariableID:9e5a00614d8fdada9c7d0778cbec07bbfb83f82a/81:17`
 - Text/Link key `cb2207637c76b84acd6b223f69db2cf8e4d60b6c`（importVariableByKeyAsync で取得）
 - Brand/Primary `VariableID:8345449add9c27dc030beabcb973e1f61fd6fad1/81:5`
-- Status/Error `VariableID:1eb7bd7915dcef65f6d533fa69ade215b9fa13d5/640:14`
+- Status/Error `VariableID:1eb7bd7915dcef65f6d533fa69ade215b9fa13d5/640:14`（= Status/Error/Default。**ダーク=PinkRed/500 / ライト=PinkRed/600 を参照**。バインドIDは不変なので既存実装の貼り替えは不要）
 - Border/Default `VariableID:1b738a06bcfd3c04f7d5d6eae86d667248ec288d/81:38`（key `1b738a06bcfd3c04f7d5d6eae86d667248ec288d`）
 - Border/Subtle key `48a932c9107480e6855a1000dc9a6faf1d7e2228` / Border/Strong key `7b2262bd204511b68c179e087112bd0a4a066459`
 - Surface/Secondary key `81b96c071e5e7da7a11a5576e512fc4e8dce5b2f`（importVariableByKeyAsync で取得）

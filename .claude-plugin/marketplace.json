@@ -11,8 +11,8 @@
   "plugins": [
     {
       "name": "nativecamp-design-skills",
-      "description": "NativeCamp デザイナー向けのCowork/Claudeスキル集（Figmaデザイン修正など）",
-      "version": "0.1.4",
+      "description": "NativeCamp デザイナー向けのCowork/Claudeスキル集（Figmaデザイン修正、Figma→Claude Designプロトタイプ変換など）",
+      "version": "0.2.1",
       "source": "./plugins/nativecamp-design-skills"
     }
   ]

@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-make_zip.py — package finished storyboard HTML(s) + source assets + a README
+make_zip.py — package finished design board HTML(s) + source assets + a README
 into a single zip to hand to developers.
 
 Usage:
   python make_zip.py \
-    --name NJ-98853_storyboards \
-    --html A.html:design_storyboard_A.html B.html:design_storyboard_B.html \
+    --name NJ-98853_design boards \
+    --html A.html:design_design board_A.html B.html:design_design board_B.html \
     --assets ./img/asset \
-    --out ./artifacts/NJ-98853_storyboards_AB.zip \
+    --out ./artifacts/NJ-98853_design boards_AB.zip \
     [--readme ./README.txt]      # if omitted, a sensible README is generated
 
 Each --html entry is  <source-path>[:<name-inside-zip>].  If no name is given,

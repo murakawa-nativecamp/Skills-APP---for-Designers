@@ -1,27 +1,28 @@
 ---
-name: nativecamp-app-design-storyboard
+name: nativecamp-app-design-board
 description: >-
-  Turn NativeCamp **mobile-app** designs (iOS / Android, Figma) into
-  self-contained, production-faithful HTML "screen storyboard" artifacts, and
-  package them into a zip for developers. Use this whenever the user wants to
-  HTML-ify an app design, build a design/screen storyboard, reproduce app screens
-  as code, create a Variant A / Variant B screen board, or "hand the design to
-  developers as HTML/zip" — especially for the NativeCamp Japanese-app
-  new-registration flow (NJ-98853), onboarding/registration screens, or the
-  dark-mode NCxAI UI. Triggers even when the user just says "デザインをHTML化して",
-  "ストーリーボード作って", "画面をコード化", "AとBのアーティファクト作って",
-  "開発者に渡すzipにして", or points at a Figma node/URL and wants the screens
-  rebuilt faithfully. SCOPE: app (mobile) screens only — PC / web (SP-web) uses a
-  different design system and is out of scope for this skill. This is the
-  design→code sibling of nativecamp-spec-artifact (which is for spec DOCUMENTS,
-  not screens).
+  Turn NativeCamp **mobile-app** designs (iOS / Android, Figma) into a
+  self-contained, production-faithful HTML "design board" (a gallery of the app
+  screens) artifact, and package it into a zip for developers. Use this whenever
+  the user wants to HTML-ify an app design, build a design board / screen-design
+  gallery, reproduce app screens as code, create a Variant A / Variant B screen
+  board, or "hand the design to developers as HTML/zip" — especially for the
+  NativeCamp Japanese-app new-registration flow (NJ-98853), onboarding/
+  registration screens, or the dark-mode NCxAI UI. Triggers even when the user
+  just says "デザインをHTML化して", "デザインボード作って", "画面一覧をHTMLで",
+  "画面をコード化", "AとBのアーティファクト作って", "開発者に渡すzipにして", or
+  points at a Figma node/URL and wants the screens rebuilt faithfully. SCOPE: app
+  (mobile) screens only — PC / web (SP-web) uses a different design system and is
+  out of scope for this skill. This is the design→code sibling of
+  nativecamp-spec-artifact (which is for spec DOCUMENTS, not screens).
 ---
 
-# NativeCamp design → HTML screen storyboard
+# NativeCamp design → HTML design board
 
 Reproduce app screens **faithfully enough to ship** (the board is treated as the
-production look): real Figma assets, exact DS tokens, laid out screen-by-screen
-on a light "design tool" board, published as an Artifact, and zippable for devs.
+production look): real Figma assets, exact DS tokens, the app screens laid out
+screen-by-screen as a **design board / gallery** on a light "design tool" canvas,
+published as an Artifact, and zippable for devs.
 
 This is design→code. For requirement/spec/measurement **documents**, use
 `nativecamp-spec-artifact` instead.
@@ -31,7 +32,7 @@ This skill currently covers **iOS / Android app screens only**. The DS tokens,
 phone-frame component library, and asset conventions here assume the mobile
 dark-mode NCxAI UI. **PC / web (SP-web) uses a different design system** and is
 **out of scope** — don't reuse this skill's CSS/components for a PC/web board.
-If a PC/web storyboard is ever needed, treat it as a separate skill/design system.
+If a PC/web design board is ever needed, treat it as a separate skill/design system.
 
 ## References (read as needed)
 - `references/design-system.md` — DS tokens + the full reusable phone-frame CSS component library + status-bar / Lottie mount snippets. **Read first** — paste the `<style>` block once into the board.
@@ -84,9 +85,9 @@ zip when they say it's good.
 
 ### 8. Zip for developers (on request, after sign-off)
 ```bash
-python scripts/make_zip.py --name NJ-XXXXX_storyboards \
-  --html A.html:design_storyboard_A.html B.html:design_storyboard_B.html \
-  --assets ./img/asset --out ./artifacts/NJ-XXXXX_storyboards_AB.zip
+python scripts/make_zip.py --name NJ-XXXXX_design boards \
+  --html A.html:design_design board_A.html B.html:design_design board_B.html \
+  --assets ./img/asset --out ./artifacts/NJ-XXXXX_design boards_AB.zip
 ```
 Generates a developer README automatically (self-contained HTML + source assets
 + notes). Uploading/sending the zip is the user's step — don't send externally

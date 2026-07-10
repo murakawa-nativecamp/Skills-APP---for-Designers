@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-inject_assets.py — turn a token-placeholder storyboard template into a
+inject_assets.py — turn a token-placeholder design board template into a
 self-contained HTML file by inlining assets, so it can be published as an
 Artifact (CSP blocks external hosts) and opened offline.
 

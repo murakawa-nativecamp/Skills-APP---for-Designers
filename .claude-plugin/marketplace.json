@@ -11,8 +11,8 @@
   "plugins": [
     {
       "name": "nativecamp-design-skills",
-      "description": "NativeCamp デザイナー向けのCowork/Claudeスキル集（Figmaデザイン修正、アプリ画面のHTML化＝画面ストーリーボード＋開発者向けzipなど）",
-      "version": "0.3.1",
+      "description": "NativeCamp デザイナー向けのCowork/Claudeスキル集（Figmaデザイン修正、アプリ画面のHTML化＝デザインボード〔画面デザイン一覧〕＋開発者向けzipなど）",
+      "version": "0.3.2",
       "source": "./plugins/nativecamp-design-skills"
     }
   ]

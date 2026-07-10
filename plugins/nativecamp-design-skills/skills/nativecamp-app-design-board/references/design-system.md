@@ -5,7 +5,7 @@ Reproduce screens faithfully with these tokens (from Figma variables).
 
 <!-- DS-AUTO:START — 自動生成 (scripts/ds_generate.py) / 手動編集しないでください -->
 ## 🔄 DS auto-synced tokens (generated — do not edit by hand)
-> Source: Design System - APP (`DKl4vZ6OAtXYhuvMHbWkRZ`) / generated: 2026-07-10T17:10:51+0800
+> Source: Design System - APP (`DKl4vZ6OAtXYhuvMHbWkRZ`) / generated: 2026-07-10T17:22:54+0800
 > Regenerated on every DS update by `scripts/ds_generate.py`. Values below are the source of truth.
 
 ### Color (Dark / Light)

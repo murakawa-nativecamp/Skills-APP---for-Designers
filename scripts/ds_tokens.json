@@ -3,7 +3,7 @@
     "sourceFileKey": "DKl4vZ6OAtXYhuvMHbWkRZ",
     "sourceFileName": "Design System - APP",
     "sourceUrl": "https://www.figma.com/design/DKl4vZ6OAtXYhuvMHbWkRZ/Design-System---APP",
-    "generatedAt": "2026-07-10T17:10:51+0800"
+    "generatedAt": "2026-07-10T17:22:54+0800"
   },
   "collections": {
     "Semantic": {
@@ -347,6 +347,77 @@
         }
       ]
     },
+    "Radius": {
+      "modes": [
+        "Value"
+      ],
+      "vars": [
+        {
+          "name": "Radius/sm",
+          "key": "f55bc2d826c9e150f0bb6e295b5ab5f7282e1773",
+          "type": "FLOAT",
+          "val": {
+            "Value": 4
+          }
+        },
+        {
+          "name": "Radius/md",
+          "key": "3739ebeede5e6dc7246a3dddbcc189f3bbb842c0",
+          "type": "FLOAT",
+          "val": {
+            "Value": 8
+          }
+        },
+        {
+          "name": "Radius/lg",
+          "key": "d19e867f0cd2feddd0709e4c08f9add6156f5e9c",
+          "type": "FLOAT",
+          "val": {
+            "Value": 12
+          }
+        },
+        {
+          "name": "Radius/xl",
+          "key": "ea41d9c17fdd8cf001d6fe7767cf27bef23336d5",
+          "type": "FLOAT",
+          "val": {
+            "Value": 16
+          }
+        },
+        {
+          "name": "Radius/2xl",
+          "key": "e5a413fe250d74e88d17ed61ec18d23094ebc374",
+          "type": "FLOAT",
+          "val": {
+            "Value": 24
+          }
+        },
+        {
+          "name": "Radius/3xl",
+          "key": "ec0b4969367ac5990c4aaf8a349c9ad76baf2c2e",
+          "type": "FLOAT",
+          "val": {
+            "Value": 32
+          }
+        },
+        {
+          "name": "Radius/4xl",
+          "key": "70704228625fa98fcf3c0b108fe7a50cb5658ba2",
+          "type": "FLOAT",
+          "val": {
+            "Value": 40
+          }
+        },
+        {
+          "name": "Radius/full",
+          "key": "aabe2ac8b46207c889a72efe3a5acb74d75b5ba5",
+          "type": "FLOAT",
+          "val": {
+            "Value": 9999
+          }
+        }
+      ]
+    },
     "Spacing": {
       "modes": [
         "Value"
@@ -430,77 +501,6 @@
           "type": "FLOAT",
           "val": {
             "Value": 40
-          }
-        }
-      ]
-    },
-    "Radius": {
-      "modes": [
-        "Value"
-      ],
-      "vars": [
-        {
-          "name": "Radius/sm",
-          "key": "f55bc2d826c9e150f0bb6e295b5ab5f7282e1773",
-          "type": "FLOAT",
-          "val": {
-            "Value": 4
-          }
-        },
-        {
-          "name": "Radius/md",
-          "key": "3739ebeede5e6dc7246a3dddbcc189f3bbb842c0",
-          "type": "FLOAT",
-          "val": {
-            "Value": 8
-          }
-        },
-        {
-          "name": "Radius/lg",
-          "key": "d19e867f0cd2feddd0709e4c08f9add6156f5e9c",
-          "type": "FLOAT",
-          "val": {
-            "Value": 12
-          }
-        },
-        {
-          "name": "Radius/xl",
-          "key": "ea41d9c17fdd8cf001d6fe7767cf27bef23336d5",
-          "type": "FLOAT",
-          "val": {
-            "Value": 16
-          }
-        },
-        {
-          "name": "Radius/2xl",
-          "key": "e5a413fe250d74e88d17ed61ec18d23094ebc374",
-          "type": "FLOAT",
-          "val": {
-            "Value": 24
-          }
-        },
-        {
-          "name": "Radius/3xl",
-          "key": "ec0b4969367ac5990c4aaf8a349c9ad76baf2c2e",
-          "type": "FLOAT",
-          "val": {
-            "Value": 32
-          }
-        },
-        {
-          "name": "Radius/4xl",
-          "key": "70704228625fa98fcf3c0b108fe7a50cb5658ba2",
-          "type": "FLOAT",
-          "val": {
-            "Value": 40
-          }
-        },
-        {
-          "name": "Radius/full",
-          "key": "aabe2ac8b46207c889a72efe3a5acb74d75b5ba5",
-          "type": "FLOAT",
-          "val": {
-            "Value": 9999
           }
         }
       ]
@@ -776,12 +776,12 @@
       "type": "COMPONENT_SET",
       "key": "1e97d8273706cc74492b235ef7995c509d49da59",
       "props": [
+        "IconLeft#973:90",
+        "IconRight#973:91",
+        "Label#973:92",
         "Variant",
         "Size",
-        "State",
-        "Label#973:92",
-        "IconLeft#973:90",
-        "IconRight#973:91"
+        "State"
       ]
     },
     {
@@ -789,12 +789,12 @@
       "type": "COMPONENT_SET",
       "key": "994f9ed8f4291b1610253231023148f7e0743bfa",
       "props": [
-        "Variant",
-        "Size",
-        "State",
         "Label#1375:30",
         "IconLeft#1469:0",
-        "IconRight#1469:37"
+        "IconRight#1469:37",
+        "Variant",
+        "Size",
+        "State"
       ]
     },
     {
@@ -813,11 +813,10 @@
       "type": "COMPONENT_SET",
       "key": "409f6643d76ab812b09f0f03433601a1223d10fd",
       "props": [
-        "Variant",
-        "Size",
-        "State",
+        "Icon#983:18",
         "Label#983:19",
-        "Icon#983:18"
+        "State",
+        "Size"
       ]
     },
     {
@@ -825,11 +824,11 @@
       "type": "COMPONENT_SET",
       "key": "4259153fed0c2d90cd0366364a41ef617ce6f628",
       "props": [
-        "Size",
-        "State",
-        "Label#990:20",
         "IconLeft#990:18",
-        "IconRight#990:19"
+        "IconRight#990:19",
+        "Label#990:20",
+        "Size",
+        "State"
       ]
     }
   ]

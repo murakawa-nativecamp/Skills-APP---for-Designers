@@ -79,7 +79,7 @@ description: >
 
 <!-- DS-AUTO:START — 自動生成 (scripts/ds_generate.py) / 手動編集しないでください -->
 ### 🔄 DS 自動同期トークン（自動生成ブロック・手動編集禁止）
-> 出典: Design System - APP (`DKl4vZ6OAtXYhuvMHbWkRZ`) ／ 生成日時: 2026-07-10T17:10:51+0800
+> 出典: Design System - APP (`DKl4vZ6OAtXYhuvMHbWkRZ`) ／ 生成日時: 2026-07-10T17:22:54+0800
 > **別ファイルで使う時は各行の `key` を `importVariableByKeyAsync(key)` で解決する。**
 > VariableID は作業ファイル固有のローカルIDなので、可搬な識別子は key のみ。値/名前/keyはDS更新のたびにここへ再生成される。
 
@@ -196,11 +196,11 @@ description: >
 #### コンポーネント (component_set key)
 | name | type | props | key |
 |---|---|---|---|
-| Button | COMPONENT_SET | Variant, Size, State, Label#973:92, IconLeft#973:90, IconRight#973:91 | `1e97d8273706cc74492b235ef7995c509d49da59` |
-| Compact Button | COMPONENT_SET | Variant, Size, State, Label#1375:30, IconLeft#1469:0, IconRight#1469:37 | `994f9ed8f4291b1610253231023148f7e0743bfa` |
+| Button | COMPONENT_SET | IconLeft#973:90, IconRight#973:91, Label#973:92, Variant, Size, State | `1e97d8273706cc74492b235ef7995c509d49da59` |
+| Compact Button | COMPONENT_SET | Label#1375:30, IconLeft#1469:0, IconRight#1469:37, Variant, Size, State | `994f9ed8f4291b1610253231023148f7e0743bfa` |
 | Icon Button | COMPONENT_SET | Variant, Size, Shape, State | `9f1955ed6503633d261e15c5d1a23e730f8b6594` |
-| Toggle Button | COMPONENT_SET | Variant, Size, State, Label#983:19, Icon#983:18 | `409f6643d76ab812b09f0f03433601a1223d10fd` |
-| Text Link | COMPONENT_SET | Size, State, Label#990:20, IconLeft#990:18, IconRight#990:19 | `4259153fed0c2d90cd0366364a41ef617ce6f628` |
+| Toggle Button | COMPONENT_SET | Icon#983:18, Label#983:19, State, Size | `409f6643d76ab812b09f0f03433601a1223d10fd` |
+| Text Link | COMPONENT_SET | IconLeft#990:18, IconRight#990:19, Label#990:20, Size, State | `4259153fed0c2d90cd0366364a41ef617ce6f628` |
 <!-- DS-AUTO:END -->
 
 ### 色（参考値。実装は必ず下の変数IDにバインド）

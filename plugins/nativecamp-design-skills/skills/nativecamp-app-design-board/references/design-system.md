@@ -3,6 +3,112 @@
 The NativeCamp Japanese-learning app UI is **dark mode only**, accent orange.
 Reproduce screens faithfully with these tokens (from Figma variables).
 
+<!-- DS-AUTO:START — 自動生成 (scripts/ds_generate.py) / 手動編集しないでください -->
+## 🔄 DS auto-synced tokens (generated — do not edit by hand)
+> Source: Design System - APP (`DKl4vZ6OAtXYhuvMHbWkRZ`) / generated: 2026-07-10T17:10:51+0800
+> Regenerated on every DS update by `scripts/ds_generate.py`. Values below are the source of truth.
+
+### Color (Dark / Light)
+| name | Dark | Light | key |
+|---|---|---|---|
+| Brand/Primary | #F1890E | #F1890E | `8345449add9c27dc030beabcb973e1f61fd6fad1` |
+| Brand/Secondary | #092846 | #092846 | `ba15ddb21724343153d2febb760d0da8f8a3ec17` |
+| Text/OnBrand | #FFFFFF | #FFFFFF | `20bce646f4388b68744e5edbe8f0d332d1f26229` |
+| Text/Primary | #FFFFFF | #0D0D0D | `832f523ad5505ae3be2c655ae4e0ab84b8825e95` |
+| Text/Secondary | #999999 | #4D4D4D | `9e5a00614d8fdada9c7d0778cbec07bbfb83f82a` |
+| Text/Tertiary | #4D4D4D | #666666 | `3c7028c66e0b1f477bc79d331839ba014b3846d2` |
+| Text/Link | #1E73DC | #1962B7 | `cb2207637c76b84acd6b223f69db2cf8e4d60b6c` |
+| Surface/Primary | #1A1A1A | #F9F5F1 | `3c08d0b7108b60ece0b4d8f2b3313866c7310ffc` |
+| Surface/Secondary | #333333 | #FFFFFF | `81b96c071e5e7da7a11a5576e512fc4e8dce5b2f` |
+| Surface/Tertiary | #4D4D4D | #E9A049 | `fd1da1cb9253efce25ef07f41429c3fde58da8fa` |
+| Surface/Elevated | #333333 | #FFFFFF | `cdb5587379e12e5fcaf1ad5df8b23a7c9f40968a` |
+| Border/Default | #FFFFFF1A | #0000001A | `1b738a06bcfd3c04f7d5d6eae86d667248ec288d` |
+| Border/Strong | #FFFFFF33 | #00000033 | `7b2262bd204511b68c179e087112bd0a4a066459` |
+| Border/Subtle | #FFFFFF0D | #0000000D | `48a932c9107480e6855a1000dc9a6faf1d7e2228` |
+| Divider/Default | #FFFFFF1A | #0000001A | `bc4afc7a7990b9ed97e9732bbf1e6b2b6c4918da` |
+| Divider/Strong | #FFFFFF33 | #00000033 | `8fbea608b3f9a0d2ad50b5e06187947d5bb72180` |
+| State/Pressed | #FFFFFF0D | #0000000D | `c11e06ae6d9172495756cec72da48b71936b77b5` |
+| State/Focus-Ring | #FFFFFF | #F1890E | `5ad779fac18e1f42b46457e88fc7a6d05f5cf6a7` |
+| State/Disabled-Fill | #FFFFFF0D | #0000000D | `315810b693dcfcb9ddc778ca6f657e546a05b93b` |
+| State/Disabled-Content | #666666 | #999999 | `02eca06c704e3c6a91b2ff9b019bdf6c2ab3a24f` |
+| State/Selected | #FFFFFF1A | #0000001A | `90ff35928450cc2e602ec530c860ef9eb4e1574c` |
+| State/Selected-Brand | #F1890E14 | #0000001A | `af07003f9a11ee3cd6d3a72cfb46863f9104555f` |
+| Status/Success/Default | #32D74B | #18902A | `f0d710671c2e9c7d7879025aa5285be9eebe5436` |
+| Status/Success/Background | #F2F8F3 | #F2F8F3 | `2fd2b0e10b7eeef988a400a57cc0ef4feb35156f` |
+| Status/Error/Default | #F0295D | #D1194D | `1eb7bd7915dcef65f6d533fa69ade215b9fa13d5` |
+| Status/Error/Background | #F9F1F3 | #F9F1F3 | `da74ba748338b559580fca72fa97acc780c6c950` |
+| Status/Warning/Default | #DBA911 | #DBA911 | `17ef1b425eb1a62d9643c457a5979ed53e8a57d7` |
+| Status/Warning/Background | #F9F6F1 | #F9F6F1 | `2565a20d7bf06da5211ae8e8d7adae66c00a30d6` |
+| Lesson/Active | #32D74B | #0BCAFA | `47d63ff9138b523be81e63a1f3ff5648fdd5e7af` |
+| Lesson/Standby | #F0295D | #F0295D | `361785905142e2f4abb8e4e5a4c61dc1125aa7c7` |
+| Lesson/Offline | #999999 | #666666 | `59a61b6cc437d1e32bb707aaaf687169b094e2b9` |
+| Lesson/Now | #F1890E | #F1890E | `db8b5bf3549aa7910c417aa988aabdb74de83169` |
+| Lesson/Live | #EE47C5 | #EE47C5 | `97d18335431d3022509ec1b28a2fdce4d247ba6b` |
+| Lesson/Reservation | #03C9A9 | #03C9A9 | `2251f100628929c4368ab806501479f65bab1401` |
+| Lesson/Done | #666666 | #666666 | `fec6ea1b360c60f0995c4115b74b181bda2c25c4` |
+| Feedback/Increase | #32D74B | #21B738 | `46e8d7d2b3c4427c52fda8525e813e0f75e18d5b` |
+| Feedback/Decrease | #F0295D | #D1194D | `8f154279b8c27af56468efe5ad35d8126010446f` |
+
+### Type — text styles
+| name | size | weight | line-height | key |
+|---|---|---|---|---|
+| JP/display | 40 | Bold | 100% | `9273ac72d4ec716eda45beba8794f432714db186` |
+| JP / heading-l | 32 | Bold | 110% | `23233d0b501177e2149bc7bf7842364e9ef3f4c3` |
+| JP/heading-m | 28 | Bold | 120% | `0540fa7e1376ff2e36e62d178e266a762d8cd2cf` |
+| JP / heading-s | 24 | Bold | 125% | `a79de77603afe222e5a5389d29e32eb673656b5b` |
+| JP/title-l | 22 | Bold | 130% | `df858ea11c64c718cb4393e38f71c539f8710b8b` |
+| JP / title-m | 20 | Bold | 135% | `17b29a2f534e4a5e2bdfbb31cc5ab289a50652e4` |
+| JP / title-s | 18 | Bold | 140% | `cd4411a589d3cd3ff0b0873a34afb1b98a3d9ad7` |
+| JP / subtitle-l | 16 | Bold | 150% | `f7bdd2b4203a10755196e91046d4da3dec1dc697` |
+| JP / subtitle-m | 14 | Bold | 145% | `85986b330b4cbcb8619d6ce51de898309fbcc24d` |
+| JP / body-l | 16 | Regular | 150% | `7487a933a7a8a61073b52b88d6a1002a5d69366c` |
+| JP / body-l-reading | 16 | Regular | 160% | `7cfeae12a99a548cdf10efd6e61693a10315b69d` |
+| JP/body-m | 14 | Regular | 150% | `ca76cdf0fd33550a42350d6e902648f12ad8db44` |
+| JP / body-m-strong | 14 | Medium | 150% | `216b416d6ce36f6dc2fc25b54fb733bb9e2f36c3` |
+| JP / body-s | 12 | Regular | 145% | `01364c1fda9dfbf259353d7af59ff443b89196ad` |
+| JP / button-xl | 20 | Medium | 130% | `18c363c5ed02f90fbaedb699c6c6613afcff70b6` |
+| JP / button-l | 16 | Medium | 130% | `c01e3a9b0af6155455fd6a7615b51c0131556386` |
+| JP / button-m | 14 | Medium | 130% | `11bf83cdb87cef3e269a700c669a0be4df6b12c7` |
+| JP / button-s | 12 | Medium | 125% | `11108c1a808e30bec474ea8f6774ab5ef1753ccc` |
+| JP / overline | 14 | Medium | 130% | `fc2773fe5824a77669c9f074105f768e02b6dec3` |
+| JP / caption-l | 12 | Medium | 125% | `42e27fe6159d00d1071acb7bc97852cbf5d01590` |
+| JP / caption-m | 10 | Medium | 130% | `614ce2d7397f8c04fffdb9e4d970fd1514ab82bf` |
+
+### Spacing
+| name | px | key |
+|---|---|---|
+| Space/xxs | 4 | `0a95bbbadd38050296a7dab7bb519b053247250d` |
+| Space/xs | 6 | `a365c3b3f793126b9280cbb38ac01fbca242bd7c` |
+| Space/sm | 8 | `f06b929889c3f640fab2a0cdf89854c2b3c868ae` |
+| Space/sm-plus | 10 | `cc54f0732f1aea7d02b54f92236166ffa4ff85a7` |
+| Space/md | 12 | `e6d690726699aeddf8e8c74e1199629f83f4a1a8` |
+| Space/base | 16 | `89d015a41d647ae1d0c696e371971b7589c688b8` |
+| Space/lg | 20 | `320f7dcf753fba082955f6183697331b1135ed17` |
+| Space/xl | 24 | `9fd93e78a2e6432a2ded1414005c5b65ceeda5f2` |
+| Space/2xl | 32 | `5b69b682dbdfc89c7f6ba046b2c0da00c0eba488` |
+| Space/3xl | 40 | `ef401cd6b5643f8604c4f5c83a61685d68d4829d` |
+
+### Radius
+| name | px | key |
+|---|---|---|
+| Radius/sm | 4 | `f55bc2d826c9e150f0bb6e295b5ab5f7282e1773` |
+| Radius/md | 8 | `3739ebeede5e6dc7246a3dddbcc189f3bbb842c0` |
+| Radius/lg | 12 | `d19e867f0cd2feddd0709e4c08f9add6156f5e9c` |
+| Radius/xl | 16 | `ea41d9c17fdd8cf001d6fe7767cf27bef23336d5` |
+| Radius/2xl | 24 | `e5a413fe250d74e88d17ed61ec18d23094ebc374` |
+| Radius/3xl | 32 | `ec0b4969367ac5990c4aaf8a349c9ad76baf2c2e` |
+| Radius/4xl | 40 | `70704228625fa98fcf3c0b108fe7a50cb5658ba2` |
+| Radius/full | 9999 | `aabe2ac8b46207c889a72efe3a5acb74d75b5ba5` |
+
+### BorderWidth
+| name | px | key |
+|---|---|---|
+| BorderWidth/Subtle | 1 | `584e7c38d7142a1e92e9af3b406b71038103b943` |
+| BorderWidth/Default | 1.5 | `4958b6fe28f70138101702093320b3bb1eeb9456` |
+| BorderWidth/Strong | 2 | `3684d03e9c5d4c44b2d80915b1fc7b6617295fad` |
+<!-- DS-AUTO:END -->
+
+
 ## Color
 | Token | Value | Use |
 |---|---|---|

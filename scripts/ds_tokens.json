@@ -1,0 +1,836 @@
+{
+  "meta": {
+    "sourceFileKey": "DKl4vZ6OAtXYhuvMHbWkRZ",
+    "sourceFileName": "Design System - APP",
+    "sourceUrl": "https://www.figma.com/design/DKl4vZ6OAtXYhuvMHbWkRZ/Design-System---APP",
+    "generatedAt": "2026-07-10T17:10:51+0800"
+  },
+  "collections": {
+    "Semantic": {
+      "modes": [
+        "Dark",
+        "Light"
+      ],
+      "vars": [
+        {
+          "name": "Brand/Primary",
+          "key": "8345449add9c27dc030beabcb973e1f61fd6fad1",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#F1890E",
+            "Light": "#F1890E"
+          }
+        },
+        {
+          "name": "Brand/Secondary",
+          "key": "ba15ddb21724343153d2febb760d0da8f8a3ec17",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#092846",
+            "Light": "#092846"
+          }
+        },
+        {
+          "name": "Text/OnBrand",
+          "key": "20bce646f4388b68744e5edbe8f0d332d1f26229",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#FFFFFF",
+            "Light": "#FFFFFF"
+          }
+        },
+        {
+          "name": "Text/Primary",
+          "key": "832f523ad5505ae3be2c655ae4e0ab84b8825e95",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#FFFFFF",
+            "Light": "#0D0D0D"
+          }
+        },
+        {
+          "name": "Text/Secondary",
+          "key": "9e5a00614d8fdada9c7d0778cbec07bbfb83f82a",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#999999",
+            "Light": "#4D4D4D"
+          }
+        },
+        {
+          "name": "Text/Tertiary",
+          "key": "3c7028c66e0b1f477bc79d331839ba014b3846d2",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#4D4D4D",
+            "Light": "#666666"
+          }
+        },
+        {
+          "name": "Text/Link",
+          "key": "cb2207637c76b84acd6b223f69db2cf8e4d60b6c",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#1E73DC",
+            "Light": "#1962B7"
+          }
+        },
+        {
+          "name": "Surface/Primary",
+          "key": "3c08d0b7108b60ece0b4d8f2b3313866c7310ffc",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#1A1A1A",
+            "Light": "#F9F5F1"
+          }
+        },
+        {
+          "name": "Surface/Secondary",
+          "key": "81b96c071e5e7da7a11a5576e512fc4e8dce5b2f",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#333333",
+            "Light": "#FFFFFF"
+          }
+        },
+        {
+          "name": "Surface/Tertiary",
+          "key": "fd1da1cb9253efce25ef07f41429c3fde58da8fa",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#4D4D4D",
+            "Light": "#E9A049"
+          }
+        },
+        {
+          "name": "Surface/Elevated",
+          "key": "cdb5587379e12e5fcaf1ad5df8b23a7c9f40968a",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#333333",
+            "Light": "#FFFFFF"
+          }
+        },
+        {
+          "name": "Border/Default",
+          "key": "1b738a06bcfd3c04f7d5d6eae86d667248ec288d",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#FFFFFF1A",
+            "Light": "#0000001A"
+          }
+        },
+        {
+          "name": "Border/Strong",
+          "key": "7b2262bd204511b68c179e087112bd0a4a066459",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#FFFFFF33",
+            "Light": "#00000033"
+          }
+        },
+        {
+          "name": "Border/Subtle",
+          "key": "48a932c9107480e6855a1000dc9a6faf1d7e2228",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#FFFFFF0D",
+            "Light": "#0000000D"
+          }
+        },
+        {
+          "name": "Divider/Default",
+          "key": "bc4afc7a7990b9ed97e9732bbf1e6b2b6c4918da",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#FFFFFF1A",
+            "Light": "#0000001A"
+          }
+        },
+        {
+          "name": "Divider/Strong",
+          "key": "8fbea608b3f9a0d2ad50b5e06187947d5bb72180",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#FFFFFF33",
+            "Light": "#00000033"
+          }
+        },
+        {
+          "name": "State/Pressed",
+          "key": "c11e06ae6d9172495756cec72da48b71936b77b5",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#FFFFFF0D",
+            "Light": "#0000000D"
+          }
+        },
+        {
+          "name": "State/Focus-Ring",
+          "key": "5ad779fac18e1f42b46457e88fc7a6d05f5cf6a7",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#FFFFFF",
+            "Light": "#F1890E"
+          }
+        },
+        {
+          "name": "State/Disabled-Fill",
+          "key": "315810b693dcfcb9ddc778ca6f657e546a05b93b",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#FFFFFF0D",
+            "Light": "#0000000D"
+          }
+        },
+        {
+          "name": "State/Disabled-Content",
+          "key": "02eca06c704e3c6a91b2ff9b019bdf6c2ab3a24f",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#666666",
+            "Light": "#999999"
+          }
+        },
+        {
+          "name": "State/Selected",
+          "key": "90ff35928450cc2e602ec530c860ef9eb4e1574c",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#FFFFFF1A",
+            "Light": "#0000001A"
+          }
+        },
+        {
+          "name": "State/Selected-Brand",
+          "key": "af07003f9a11ee3cd6d3a72cfb46863f9104555f",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#F1890E14",
+            "Light": "#0000001A"
+          }
+        },
+        {
+          "name": "Status/Success/Default",
+          "key": "f0d710671c2e9c7d7879025aa5285be9eebe5436",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#32D74B",
+            "Light": "#18902A"
+          }
+        },
+        {
+          "name": "Status/Success/Background",
+          "key": "2fd2b0e10b7eeef988a400a57cc0ef4feb35156f",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#F2F8F3",
+            "Light": "#F2F8F3"
+          }
+        },
+        {
+          "name": "Status/Error/Default",
+          "key": "1eb7bd7915dcef65f6d533fa69ade215b9fa13d5",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#F0295D",
+            "Light": "#D1194D"
+          }
+        },
+        {
+          "name": "Status/Error/Background",
+          "key": "da74ba748338b559580fca72fa97acc780c6c950",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#F9F1F3",
+            "Light": "#F9F1F3"
+          }
+        },
+        {
+          "name": "Status/Warning/Default",
+          "key": "17ef1b425eb1a62d9643c457a5979ed53e8a57d7",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#DBA911",
+            "Light": "#DBA911"
+          }
+        },
+        {
+          "name": "Status/Warning/Background",
+          "key": "2565a20d7bf06da5211ae8e8d7adae66c00a30d6",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#F9F6F1",
+            "Light": "#F9F6F1"
+          }
+        },
+        {
+          "name": "Lesson/Active",
+          "key": "47d63ff9138b523be81e63a1f3ff5648fdd5e7af",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#32D74B",
+            "Light": "#0BCAFA"
+          }
+        },
+        {
+          "name": "Lesson/Standby",
+          "key": "361785905142e2f4abb8e4e5a4c61dc1125aa7c7",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#F0295D",
+            "Light": "#F0295D"
+          }
+        },
+        {
+          "name": "Lesson/Offline",
+          "key": "59a61b6cc437d1e32bb707aaaf687169b094e2b9",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#999999",
+            "Light": "#666666"
+          }
+        },
+        {
+          "name": "Lesson/Now",
+          "key": "db8b5bf3549aa7910c417aa988aabdb74de83169",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#F1890E",
+            "Light": "#F1890E"
+          }
+        },
+        {
+          "name": "Lesson/Live",
+          "key": "97d18335431d3022509ec1b28a2fdce4d247ba6b",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#EE47C5",
+            "Light": "#EE47C5"
+          }
+        },
+        {
+          "name": "Lesson/Reservation",
+          "key": "2251f100628929c4368ab806501479f65bab1401",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#03C9A9",
+            "Light": "#03C9A9"
+          }
+        },
+        {
+          "name": "Lesson/Done",
+          "key": "fec6ea1b360c60f0995c4115b74b181bda2c25c4",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#666666",
+            "Light": "#666666"
+          }
+        },
+        {
+          "name": "Feedback/Increase",
+          "key": "46e8d7d2b3c4427c52fda8525e813e0f75e18d5b",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#32D74B",
+            "Light": "#21B738"
+          }
+        },
+        {
+          "name": "Feedback/Decrease",
+          "key": "8f154279b8c27af56468efe5ad35d8126010446f",
+          "type": "COLOR",
+          "val": {
+            "Dark": "#F0295D",
+            "Light": "#D1194D"
+          }
+        }
+      ]
+    },
+    "Spacing": {
+      "modes": [
+        "Value"
+      ],
+      "vars": [
+        {
+          "name": "Space/xxs",
+          "key": "0a95bbbadd38050296a7dab7bb519b053247250d",
+          "type": "FLOAT",
+          "val": {
+            "Value": 4
+          }
+        },
+        {
+          "name": "Space/xs",
+          "key": "a365c3b3f793126b9280cbb38ac01fbca242bd7c",
+          "type": "FLOAT",
+          "val": {
+            "Value": 6
+          }
+        },
+        {
+          "name": "Space/sm",
+          "key": "f06b929889c3f640fab2a0cdf89854c2b3c868ae",
+          "type": "FLOAT",
+          "val": {
+            "Value": 8
+          }
+        },
+        {
+          "name": "Space/sm-plus",
+          "key": "cc54f0732f1aea7d02b54f92236166ffa4ff85a7",
+          "type": "FLOAT",
+          "val": {
+            "Value": 10
+          }
+        },
+        {
+          "name": "Space/md",
+          "key": "e6d690726699aeddf8e8c74e1199629f83f4a1a8",
+          "type": "FLOAT",
+          "val": {
+            "Value": 12
+          }
+        },
+        {
+          "name": "Space/base",
+          "key": "89d015a41d647ae1d0c696e371971b7589c688b8",
+          "type": "FLOAT",
+          "val": {
+            "Value": 16
+          }
+        },
+        {
+          "name": "Space/lg",
+          "key": "320f7dcf753fba082955f6183697331b1135ed17",
+          "type": "FLOAT",
+          "val": {
+            "Value": 20
+          }
+        },
+        {
+          "name": "Space/xl",
+          "key": "9fd93e78a2e6432a2ded1414005c5b65ceeda5f2",
+          "type": "FLOAT",
+          "val": {
+            "Value": 24
+          }
+        },
+        {
+          "name": "Space/2xl",
+          "key": "5b69b682dbdfc89c7f6ba046b2c0da00c0eba488",
+          "type": "FLOAT",
+          "val": {
+            "Value": 32
+          }
+        },
+        {
+          "name": "Space/3xl",
+          "key": "ef401cd6b5643f8604c4f5c83a61685d68d4829d",
+          "type": "FLOAT",
+          "val": {
+            "Value": 40
+          }
+        }
+      ]
+    },
+    "Radius": {
+      "modes": [
+        "Value"
+      ],
+      "vars": [
+        {
+          "name": "Radius/sm",
+          "key": "f55bc2d826c9e150f0bb6e295b5ab5f7282e1773",
+          "type": "FLOAT",
+          "val": {
+            "Value": 4
+          }
+        },
+        {
+          "name": "Radius/md",
+          "key": "3739ebeede5e6dc7246a3dddbcc189f3bbb842c0",
+          "type": "FLOAT",
+          "val": {
+            "Value": 8
+          }
+        },
+        {
+          "name": "Radius/lg",
+          "key": "d19e867f0cd2feddd0709e4c08f9add6156f5e9c",
+          "type": "FLOAT",
+          "val": {
+            "Value": 12
+          }
+        },
+        {
+          "name": "Radius/xl",
+          "key": "ea41d9c17fdd8cf001d6fe7767cf27bef23336d5",
+          "type": "FLOAT",
+          "val": {
+            "Value": 16
+          }
+        },
+        {
+          "name": "Radius/2xl",
+          "key": "e5a413fe250d74e88d17ed61ec18d23094ebc374",
+          "type": "FLOAT",
+          "val": {
+            "Value": 24
+          }
+        },
+        {
+          "name": "Radius/3xl",
+          "key": "ec0b4969367ac5990c4aaf8a349c9ad76baf2c2e",
+          "type": "FLOAT",
+          "val": {
+            "Value": 32
+          }
+        },
+        {
+          "name": "Radius/4xl",
+          "key": "70704228625fa98fcf3c0b108fe7a50cb5658ba2",
+          "type": "FLOAT",
+          "val": {
+            "Value": 40
+          }
+        },
+        {
+          "name": "Radius/full",
+          "key": "aabe2ac8b46207c889a72efe3a5acb74d75b5ba5",
+          "type": "FLOAT",
+          "val": {
+            "Value": 9999
+          }
+        }
+      ]
+    },
+    "BorderWidth": {
+      "modes": [
+        "Value"
+      ],
+      "vars": [
+        {
+          "name": "BorderWidth/Subtle",
+          "key": "584e7c38d7142a1e92e9af3b406b71038103b943",
+          "type": "FLOAT",
+          "val": {
+            "Value": 1
+          }
+        },
+        {
+          "name": "BorderWidth/Default",
+          "key": "4958b6fe28f70138101702093320b3bb1eeb9456",
+          "type": "FLOAT",
+          "val": {
+            "Value": 1.5
+          }
+        },
+        {
+          "name": "BorderWidth/Strong",
+          "key": "3684d03e9c5d4c44b2d80915b1fc7b6617295fad",
+          "type": "FLOAT",
+          "val": {
+            "Value": 2
+          }
+        }
+      ]
+    },
+    "Layout": {
+      "modes": [
+        "Value"
+      ],
+      "vars": [
+        {
+          "name": "wrapper-L/padding-left",
+          "key": "6523b80d05f73768ee6a8228e4dd1b18be2835aa",
+          "type": "FLOAT",
+          "val": {
+            "Value": 0
+          }
+        },
+        {
+          "name": "wrapper-L/padding-right",
+          "key": "d88cf21a21a2e7ef63c7716a2b2096baba45107f",
+          "type": "FLOAT",
+          "val": {
+            "Value": 0
+          }
+        },
+        {
+          "name": "wrapper-M/padding-left",
+          "key": "eac1e2eaa6c378d9c491df4f357ace57883f688c",
+          "type": "FLOAT",
+          "val": {
+            "Value": 20
+          }
+        },
+        {
+          "name": "wrapper-M/padding-right",
+          "key": "4ce2c79610849dca9fa09f4b440fee38753c6e00",
+          "type": "FLOAT",
+          "val": {
+            "Value": 20
+          }
+        },
+        {
+          "name": "wrapper-S/padding-left",
+          "key": "564217d13c809592a925e43f5ae3ac3c4a9e116f",
+          "type": "FLOAT",
+          "val": {
+            "Value": 20
+          }
+        },
+        {
+          "name": "wrapper-S/padding-right",
+          "key": "ac89cde3b92e6024a518d049ec47725e31874224",
+          "type": "FLOAT",
+          "val": {
+            "Value": 20
+          }
+        },
+        {
+          "name": "wrapper-S/max-width",
+          "key": "1949e54d7eecb5042f202c67ecd2a4c5de8ebb11",
+          "type": "FLOAT",
+          "val": {
+            "Value": 720
+          }
+        }
+      ]
+    }
+  },
+  "textStyles": [
+    {
+      "name": "JP/display",
+      "key": "9273ac72d4ec716eda45beba8794f432714db186",
+      "size": 40,
+      "family": "Noto Sans JP",
+      "weight": "Bold",
+      "lh": "100%"
+    },
+    {
+      "name": "JP / heading-l",
+      "key": "23233d0b501177e2149bc7bf7842364e9ef3f4c3",
+      "size": 32,
+      "family": "Noto Sans JP",
+      "weight": "Bold",
+      "lh": "110%"
+    },
+    {
+      "name": "JP/heading-m",
+      "key": "0540fa7e1376ff2e36e62d178e266a762d8cd2cf",
+      "size": 28,
+      "family": "Noto Sans JP",
+      "weight": "Bold",
+      "lh": "120%"
+    },
+    {
+      "name": "JP / heading-s",
+      "key": "a79de77603afe222e5a5389d29e32eb673656b5b",
+      "size": 24,
+      "family": "Noto Sans JP",
+      "weight": "Bold",
+      "lh": "125%"
+    },
+    {
+      "name": "JP/title-l",
+      "key": "df858ea11c64c718cb4393e38f71c539f8710b8b",
+      "size": 22,
+      "family": "Noto Sans JP",
+      "weight": "Bold",
+      "lh": "130%"
+    },
+    {
+      "name": "JP / title-m",
+      "key": "17b29a2f534e4a5e2bdfbb31cc5ab289a50652e4",
+      "size": 20,
+      "family": "Noto Sans JP",
+      "weight": "Bold",
+      "lh": "135%"
+    },
+    {
+      "name": "JP / title-s",
+      "key": "cd4411a589d3cd3ff0b0873a34afb1b98a3d9ad7",
+      "size": 18,
+      "family": "Noto Sans JP",
+      "weight": "Bold",
+      "lh": "140%"
+    },
+    {
+      "name": "JP / subtitle-l",
+      "key": "f7bdd2b4203a10755196e91046d4da3dec1dc697",
+      "size": 16,
+      "family": "Noto Sans JP",
+      "weight": "Bold",
+      "lh": "150%"
+    },
+    {
+      "name": "JP / subtitle-m",
+      "key": "85986b330b4cbcb8619d6ce51de898309fbcc24d",
+      "size": 14,
+      "family": "Noto Sans JP",
+      "weight": "Bold",
+      "lh": "145%"
+    },
+    {
+      "name": "JP / body-l",
+      "key": "7487a933a7a8a61073b52b88d6a1002a5d69366c",
+      "size": 16,
+      "family": "Noto Sans JP",
+      "weight": "Regular",
+      "lh": "150%"
+    },
+    {
+      "name": "JP / body-l-reading",
+      "key": "7cfeae12a99a548cdf10efd6e61693a10315b69d",
+      "size": 16,
+      "family": "Noto Sans JP",
+      "weight": "Regular",
+      "lh": "160%"
+    },
+    {
+      "name": "JP/body-m",
+      "key": "ca76cdf0fd33550a42350d6e902648f12ad8db44",
+      "size": 14,
+      "family": "Noto Sans JP",
+      "weight": "Regular",
+      "lh": "150%"
+    },
+    {
+      "name": "JP / body-m-strong",
+      "key": "216b416d6ce36f6dc2fc25b54fb733bb9e2f36c3",
+      "size": 14,
+      "family": "Noto Sans JP",
+      "weight": "Medium",
+      "lh": "150%"
+    },
+    {
+      "name": "JP / body-s",
+      "key": "01364c1fda9dfbf259353d7af59ff443b89196ad",
+      "size": 12,
+      "family": "Noto Sans JP",
+      "weight": "Regular",
+      "lh": "145%"
+    },
+    {
+      "name": "JP / button-xl",
+      "key": "18c363c5ed02f90fbaedb699c6c6613afcff70b6",
+      "size": 20,
+      "family": "Noto Sans JP",
+      "weight": "Medium",
+      "lh": "130%"
+    },
+    {
+      "name": "JP / button-l",
+      "key": "c01e3a9b0af6155455fd6a7615b51c0131556386",
+      "size": 16,
+      "family": "Noto Sans JP",
+      "weight": "Medium",
+      "lh": "130%"
+    },
+    {
+      "name": "JP / button-m",
+      "key": "11bf83cdb87cef3e269a700c669a0be4df6b12c7",
+      "size": 14,
+      "family": "Noto Sans JP",
+      "weight": "Medium",
+      "lh": "130%"
+    },
+    {
+      "name": "JP / button-s",
+      "key": "11108c1a808e30bec474ea8f6774ab5ef1753ccc",
+      "size": 12,
+      "family": "Noto Sans JP",
+      "weight": "Medium",
+      "lh": "125%"
+    },
+    {
+      "name": "JP / overline",
+      "key": "fc2773fe5824a77669c9f074105f768e02b6dec3",
+      "size": 14,
+      "family": "Noto Sans JP",
+      "weight": "Medium",
+      "lh": "130%"
+    },
+    {
+      "name": "JP / caption-l",
+      "key": "42e27fe6159d00d1071acb7bc97852cbf5d01590",
+      "size": 12,
+      "family": "Noto Sans JP",
+      "weight": "Medium",
+      "lh": "125%"
+    },
+    {
+      "name": "JP / caption-m",
+      "key": "614ce2d7397f8c04fffdb9e4d970fd1514ab82bf",
+      "size": 10,
+      "family": "Noto Sans JP",
+      "weight": "Medium",
+      "lh": "130%"
+    }
+  ],
+  "components": [
+    {
+      "name": "Button",
+      "type": "COMPONENT_SET",
+      "key": "1e97d8273706cc74492b235ef7995c509d49da59",
+      "props": [
+        "Variant",
+        "Size",
+        "State",
+        "Label#973:92",
+        "IconLeft#973:90",
+        "IconRight#973:91"
+      ]
+    },
+    {
+      "name": "Compact Button",
+      "type": "COMPONENT_SET",
+      "key": "994f9ed8f4291b1610253231023148f7e0743bfa",
+      "props": [
+        "Variant",
+        "Size",
+        "State",
+        "Label#1375:30",
+        "IconLeft#1469:0",
+        "IconRight#1469:37"
+      ]
+    },
+    {
+      "name": "Icon Button",
+      "type": "COMPONENT_SET",
+      "key": "9f1955ed6503633d261e15c5d1a23e730f8b6594",
+      "props": [
+        "Variant",
+        "Size",
+        "Shape",
+        "State"
+      ]
+    },
+    {
+      "name": "Toggle Button",
+      "type": "COMPONENT_SET",
+      "key": "409f6643d76ab812b09f0f03433601a1223d10fd",
+      "props": [
+        "Variant",
+        "Size",
+        "State",
+        "Label#983:19",
+        "Icon#983:18"
+      ]
+    },
+    {
+      "name": "Text Link",
+      "type": "COMPONENT_SET",
+      "key": "4259153fed0c2d90cd0366364a41ef617ce6f628",
+      "props": [
+        "Size",
+        "State",
+        "Label#990:20",
+        "IconLeft#990:18",
+        "IconRight#990:19"
+      ]
+    }
+  ]
+}

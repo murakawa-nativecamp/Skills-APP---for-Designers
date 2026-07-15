@@ -34,10 +34,26 @@ dark-mode NCxAI UI. **PC / web (SP-web) uses a different design system** and is
 **out of scope** — don't reuse this skill's CSS/components for a PC/web board.
 If a PC/web design board is ever needed, treat it as a separate skill/design system.
 
+## Webview vs Native APP
+App screens usually ship as a **Webview** inside the native shell (every case so
+far). But a job may instead be built as a **fully native iOS / Android screen**.
+When the implementation target is **Native APP** (not Webview):
+- Reference the real codebases to match existing components / navigation / naming:
+  iOS https://github.com/VJSOL/NativeCamp-iOS and
+  Android https://github.com/VJSOL/NativeCamp-Android.
+- Add the **"参考コード — カウントアップ＋ポップ（iOS / Android）"** block (Swift/SwiftUI +
+  Kotlin/Compose + classic Views) **right before the Implementation notes**, prefixed
+  with a "もしNative APPの場合" note. See `references/native-app-reference.md` for the
+  repos and the ready-to-paste markup.
+
+If you're unsure whether the job is Webview or Native, ask — don't add the native
+reference-code block to a Webview board.
+
 ## References (read as needed)
 - `references/design-system.md` — DS tokens + the full reusable phone-frame CSS component library + status-bar / Lottie mount snippets. **Read first** — paste the `<style>` block once into the board.
 - `references/component-snippets.md` — ready-to-paste markup for every screen type (splash, value-prop/swipe, question, sign up, card+trial, trial-started, log in, tutor).
 - `references/figma-workflow.md` — how to pull node ids / structure / assets from Figma, and the important MCP gotchas (Apple/Google icon export, WorldPay placeholder).
+- `references/native-app-reference.md` — **Native APP (non-Webview) cases only:** the real iOS/Android repos to reference, plus the ready-to-paste "参考コード — カウントアップ＋ポップ（iOS / Android）" block to add before Implementation notes.
 - `scripts/inject_assets.py` — inline assets into a token template (makes it self-contained + CSP-safe).
 - `scripts/make_zip.py` — package final HTML(s) + assets + README into a zip.
 - `assets/lottie.min.js` — bundled lottie-web player (inlined via `{{LOTTIE_LIB}}`).
